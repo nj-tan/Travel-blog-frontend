@@ -1,0 +1,48 @@
+:root {
+  --primaryColor: hsl(233, 52%, 19%);
+  --secColor: hsl(233, 16%, 44%);
+  --hoverColor: hsl(8, 100%, 70%);
+  --blackColor: #707070;
+  --greyText: hsl(0, 0%, 75%);
+  --bgColor: hsl(0, 0%, 100%);
+  --shadowColor: hsla(0, 0%, 0%, 0.314);
+  --gradient: linear-gradient(to bottom, hsl(16, 100%, 70%), hsl(8, 100%, 70%));
+  --boxShadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  --borderRadius: 10px;
+  --biggestFontSize: 2.4rem;
+  --h1FontSize: 2.2rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: 0.938rem;
+  --smallFontSize: 0.813rem;
+  --smallestFontSize: 0.75rem;
+}
+
+.Guide .secContainer {
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.Guide .secContainer .textDiv .secContainer {
+  gap: 2.5rem;
+}
+.Guide .secContainer .textDiv .secContainer .singleSection {
+  align-items: flex-start;
+  gap: 1rem;
+}
+.Guide .secContainer .textDiv .secContainer .singleSection img {
+  width: 50px;
+}
+.Guide .secContainer .textDiv .secContainer .singleSection .text span {
+  font-size: var(--h3FontSize);
+  color: var(--secColor);
+  font-weight: 700;
+}
+.Guide .secContainer .textDiv .secContainer .singleSection .text p {
+  padding-top: 0.3rem;
+  color: var(--secColor);
+}
+.Guide .secContainer .imgDiv img {
+  scale: 1.15;
+}/*# sourceMappingURL=Guide.css.map */
